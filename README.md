@@ -1,10 +1,10 @@
 # Conway-féle Életjáték Pythonban (Jupyter Notebook + Seaborn)
 
-Projektünk a Conway-féle Életjáték (Game of Life) nevű sejtautomata működését mutatja be. Az Életjátékot John Conway matematikus alkotta meg 1970-ben. A program egy kétdimenziós rácson szimulálja a sejtek fejlődését, ahol minden cella kétféle állapotban lehet: élő vagy halott.
+A projektünk a Conway-féle Életjáték (Game of Life) nevű sejtautomata működését mutatja be. Az Életjátékot John Conway matematikus alkotta meg 1970-ben. A program egy kétdimenziós rácson szimulálja a sejtek fejlődését, ahol minden cella kétféle állapotban lehet: élő vagy halott.
 
 A sejtek állapota generációról generációra változik a szomszédos sejtek száma alapján. Bár a szabályok egyszerűek, a rendszer rendkívül érdekes és összetett mintázatok kialakulására képes.
 
-A projektet Python nyelven készítettük el, :contentReference[oaicite:0]{index=0} környezetben. A számításokat :contentReference[oaicite:1]{index=1} segítségével végezzük, a vizualizációhoz a :contentReference[oaicite:2]{index=2} `heatmap()` függvényét használjuk, az animációt pedig a :contentReference[oaicite:3]{index=3} `FuncAnimation()` osztálya valósítja meg.
+A projekt Python nyelven készült el, :contentReference[oaicite:0]{index=0} környezetben. A számításokat :contentReference[oaicite:1]{index=1} segítségével végezzük, a vizualizációhoz a :contentReference[oaicite:2]{index=2} `heatmap()` függvényét használjuk, az animációt pedig a :contentReference[oaicite:3]{index=3} `FuncAnimation()` osztálya valósítja meg.
 
 ## Az Életjáték szabályai
 
